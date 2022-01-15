@@ -110,7 +110,7 @@ body{
 .company-logos{
     padding-top: 60px;
     margin-right: 220px;
-    margin-left: 190px;
+    margin-left: 214px;
 }
 .company-logo{
     display: flex;
@@ -130,8 +130,8 @@ body{
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     gap: 30px;
-    width: 1047px;
-    margin-left: 200px;
+    width: 60%;
+    margin-left: 215px;
 }
 .collection{
     width: 314px;
@@ -231,13 +231,14 @@ body{
     padding-top: 80px;
 }
 .catagories-container{
-    width: 1280px; 
+    width: 90%; 
+    margin-left: 70px;
 }
 .catagories{
     display: flex;
     justify-content:space-evenly;
-    margin: 40px;
-    margin-left: 40px;  
+    
+      
 }
 .catagory{
     height: 225px;
@@ -256,6 +257,7 @@ body{
 /* sign-up starts */
 .sign-up-container{
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 .sign-up{
     display: flex;
