@@ -106,6 +106,28 @@ main{
     font-size: 16px;
     
 }
+.prebook{
+    width: 196px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.prebook a{
+    color: #FFFFFF;
+    height: 24px;
+    width: 116px;
+    text-decoration: none;
+    padding-right: 10px;
+} 
+.prebook p{
+    font-size: large;
+}
 .header-part-two-pic img{
     transition:  transform .5s ease-in .1S;
 }
@@ -377,7 +399,7 @@ main{
         width:380px;
         padding-bottom: 15px;
     }
-    .button{
+    .prebook{
         padding-left: 100px;
     }
     .fa-arrow-right{
