@@ -73,18 +73,7 @@ body{
     margin-left: 34px;
     color: #3A3A3A;
 } 
-.company-logos{
-    padding-top: 60px;
-    margin-right: 226px;
-    margin-left: 216px;
-}
-.company-logo{
-    display: flex;
-    width: 900px;
-    margin-left: 72px;
-    margin-right: 100px;
-    justify-content: space-evenly;
-}
+
 
 /* main part  */
 /* main part one */
@@ -116,6 +105,19 @@ body{
 .header-part-two-pic:hover img{
     transform: rotate(20deg);
     transform-origin: left ;
+}
+/* logo style  */
+.company-logos{
+    padding-top: 60px;
+    margin-right: 226px;
+    margin-left: 216px;
+}
+.company-logo{
+    display: flex;
+    width: 900px;
+    margin-left: 52px;
+    margin-right: 100px;
+    justify-content: space-evenly;
 }
 /* main-part-two */
 .main-part-two-container h2{
@@ -228,11 +230,14 @@ body{
     font-size: 28px;
     padding-top: 80px;
 }
+.catagories-container{
+    width: width: 1280px; 
+}
 .catagories{
     display: flex;
     justify-content:space-evenly;
-    width: 1480px; 
-    margin: 40px 0px;  
+    margin: 40px;
+    margin-left: 40px;  
 }
 .catagory{
     height: 225px;
@@ -314,3 +319,5 @@ body{
     margin-top: 17px;
     margin-bottom: 22px;
 }
+
+
